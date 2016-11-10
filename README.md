@@ -21,7 +21,7 @@ It accepts
 ##How to install
 
 1. Run ```mvn install``` to generate jar file. 
-2. copy generated jar file and tyrus-standalone-client-1.11.jar into <jmeter installation path>/lib/ext
+2. copy generated jar file and tyrus-standalone-client-1.11.jar into path-to-jmeter-installation/lib/ext
 3. run jmeter
 4. open websoket.jmx
 5. start test
