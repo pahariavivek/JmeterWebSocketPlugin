@@ -2,9 +2,12 @@
 load test your websocket server. This is minimal jmeter plugin. Modify it to generate load according to your needs
 
 ## What is does
-Each thread opens single websocket connection to the server. Once connection is open, it periodically sends messages for given duration. Aggregate Report's error% shows number of unsuccessful connections. It also works inside proxy.
+Each thread opens single websocket connection to the server. Once connection is open, it periodically sends messages for given duration. Aggregate Report's error% shows number of unsuccessful connections. 
+
+It also works inside proxy.
 
 It accepts
+
 1. URI: server uri under test (ws://localhost:8080)
 2. Proxy URI: proxy uri if running jmeter behind proxy. Leave empty if no proxy	
 3. Message: message that is send periodically
